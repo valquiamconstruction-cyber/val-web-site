@@ -1,0 +1,42 @@
+[
+  {
+    "id": "proj-001",
+    "title": "Two-Storey Residence with Basement & Pool",
+    "category": "Residential",
+    "status": "completed",
+    "location": "Jawa, Dauin, Negros Oriental",
+    "description": "A modern two-storey residential property with a basement, swimming pool, and pool bar, designed to blend contemporary architecture with tropical outdoor living. The project features carefully landscaped grounds, a dedicated pool and entertainment area, and distinctive thatched-roof outdoor structures that create a private resort-inspired atmosphere.",
+    "image": "images/projects/proj-001.jpg",
+    "featured": true
+  },
+  {
+    "id": "proj-002",
+    "title": "Two-storey Residential Build",
+    "category": "Residential",
+    "status": "completed",
+    "location": "Anhawan, Dauin, Negros Oriental",
+    "description": "Modern Design Residential Building with Basement.",
+    "image": "images/projects/proj-002.jpg",
+    "featured": false
+  },
+  {
+    "id": "proj-003",
+    "title": "Two-storey Apartment Build",
+    "category": "Commercial",
+    "status": "completed",
+    "location": "Poblacion, Dauin, Negros Oriental",
+    "description": "Four Room Apartment Building.",
+    "image": "images/projects/proj-003.jpg",
+    "featured": false
+  },
+  {
+    "id": "proj-004",
+    "title": "Two-storey Residential building with Swimming Pool",
+    "category": "Residential",
+    "status": "ongoing",
+    "location": "Anhawan, Dauin, Negros Oriental",
+    "description": "Modern Two-storey Residential Building with Pool on the Side.",
+    "image": "images/projects/proj-004.jpg",
+    "featured": false
+  }
+]

@@ -1,0 +1,96 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>VALQUIAM Construction - Build Better, Together</title>
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <header class="site-header">
+      <div class="container header-inner">
+        <a href="index.html">
+          <img
+            src="images/valquiam-logo-v2.png"
+            alt="VALQUIAM logo"
+            class="logo-img"
+        /></a>
+        <nav class="main-nav">
+          <button class="hamburger-btn" aria-label="Toggle menu">☰</button>
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="services.html">Services</a></li>
+            <li><a href="projects.html">Projects</a></li>
+            <li><a href="contact.html" class="active">Contact</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+    <main>
+      <section class="page-intro">
+        <div class="container">
+          <h1>Ready to bring your vision to life?</h1>
+          <p>Visit us at Leon Kilat Mall, Bacong — or send an inquiry below.</p>
+        </div>
+      </section>
+
+      <section class="contact-section">
+        <div class="container two-col">
+          <form
+            action="https://formspree.io/f/moevdlqw"
+            method="POST"
+            class="contact-form"
+          >
+            <label for="name">Name</label>
+            <input type="text" id="name" name="name" required />
+
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email" required />
+
+            <label for="phone">Phone</label>
+            <input type="tel" id="phone" name="phone" required />
+
+            <label for="project-type">Project Type</label>
+            <select id="project-type" name="project-type">
+              <option value="residential">Residential</option>
+              <option value="commercial">Commercial</option>
+              <option value="renovation">Renovation</option>
+              <option value="other">Other</option>
+            </select>
+
+            <label for="message">Message</label>
+            <textarea id="message" name="message" rows="5" required></textarea>
+
+            <button type="submit" class="btn btn-primary">Send Inquiry</button>
+          </form>
+
+          <div class="contact-info">
+            <h2>Office</h2>
+            <address>
+              <p>Leon Kilat Mall, Bacong, Negros Oriental</p>
+              <p>
+                <a href="mailto:valquiamconstruction@gmail.com"
+                  >valquiamconstruction@gmail.com</a
+                >
+              </p>
+            </address>
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer class="site-footer">
+      <div class="container">
+        <p>
+          VALQUIAM Construction Services — Leon Kilat Mall, Bacong, Negros
+          Oriental
+        </p>
+        <p>
+          Building Better, Together.
+          <a href="mailto:valquiamconstruction@gmail.com">Email Us</a>
+        </p>
+      </div>
+    </footer>
+    <script src="js/main.js"></script>
+  </body>
+</html>

@@ -1,0 +1,65 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>VALQUIAM Construction - Build Better, Together</title>
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <header class="site-header">
+      <div class="container header-inner">
+        <a href="index.html">
+          <img
+            src="images/valquiam-logo-v2.png"
+            alt="VALQUIAM logo"
+            class="logo-img"
+        /></a>
+        <nav class="main-nav">
+          <button class="hamburger-btn" aria-label="Toggle menu">☰</button>
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="services.html">Services</a></li>
+            <li><a href="projects.html" class="active">Projects</a></li>
+            <li><a href="contact.html">Contact</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+    <main>
+      <section class="page-intro">
+        <div class="container">
+          <h1>Our Projects</h1>
+          <p>Ongoing and completed across Negros Oriental</p>
+
+          <div class="filter-bar">
+            <button class="filter-btn active" data-filter="all">All</button>
+            <button class="filter-btn" data-filter="ongoing">Ongoing</button>
+            <button class="filter-btn" data-filter="completed">
+              Completed
+            </button>
+          </div>
+        </div>
+      </section>
+
+      <section class="projects-grid-section">
+        <div id="projects-grid" class="container projects-list"></div>
+      </section>
+    </main>
+    <footer class="site-footer">
+      <div class="container">
+        <p>
+          VALQUIAM Construction Services — Leon Kilat Mall, Bacong, Negros
+          Oriental
+        </p>
+        <p>
+          Building Better, Together.
+          <a href="mailto:valquiamconstruction@gmail.com">Email Us</a>
+        </p>
+      </div>
+    </footer>
+    <script src="js/projects.js"></script>
+    <script src="js/main.js"></script>
+  </body>
+</html>
